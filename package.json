@@ -1,0 +1,49 @@
+{
+  "name": "playlist-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "start-api": "json-server --watch db.json --port 8080"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.2.0",
+    "@react-navigation/drawer": "^6.3.1",
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/native-stack": "^6.5.0",
+    "@react-navigation/stack": "^6.2.1",
+    "@types/react-native-table-component": "^1.2.4",
+    "expo": "~44.0.0",
+    "expo-av": "~10.2.0",
+    "expo-status-bar": "~1.2.0",
+    "firebase": "^9.6.11",
+    "react": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-elements": "^3.4.2",
+    "react-native-paper": "^4.12.1",
+    "react-native-reanimated": "~2.3.1",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-share": "^7.6.2",
+    "react-native-status-bar-height": "^2.6.0",
+    "react-native-video": "^5.2.0",
+    "react-native-web": "0.17.1",
+    "react-navigation-stack": "^2.10.4",
+    "styled-components": "^5.3.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "@types/react-native-video": "^5.0.13",
+    "@types/styled-components": "^5.1.24",
+    "json-server": "^0.17.0",
+    "typescript": "~4.3.5"
+  },
+  "private": true
+}
